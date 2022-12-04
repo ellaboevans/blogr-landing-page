@@ -1,0 +1,23 @@
+{
+  "name": "blogr-landing-page",
+  "version": "1.0.0",
+  "description": "![Design preview for the Blogr landing page coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss build src/styles.css -o public/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ellaboevans/blogr-landing-page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ellaboevans/blogr-landing-page/issues"
+  },
+  "homepage": "https://github.com/ellaboevans/blogr-landing-page#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
