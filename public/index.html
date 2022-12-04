@@ -1,99 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="../images/favicon-32x32.png"
+    />
+    <title>Frontend Mentor | [Blogr]</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div
+      class="bg-backgroundOne text-white h-auto p-5 md:p-10 rounded-bl-hero bg-local bg-center bg-no-repeat"
+      style="background-image: url(../images/bg-pattern-intro-desktop.svg)"
+    >
+      <header class="flex justify-between items-center p-4">
+        <!-- logo here -->
+        <div class="flex items-center gap-20">
+          <img src="../images/logo.svg" alt="logo" class="w-20"/>
+          <nav class="hidden md:flex">
+            <ul class="flex gap-8 font-bold font-body">
+              <li class="hover:underline">
+                <a href="#" class="flex items-center gap-2">
+                  Overview
+                  <img
+                    src="./images/icon-arrow-light.svg"
+                    alt="arrow"
+                    class="hover:rotate-180 transition ease-out duration-700"
+                  />
+                </a>
+              </li>
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | [Blogr]</title>
+              <li class="hover:underline">
+                <a href="#" class="flex items-center gap-2">
+                  Company
+                  <img
+                    src="./images/icon-arrow-light.svg"
+                    alt="arrow"
+                    class="hover:rotate-180 transition ease-out duration-700"
+                  />
+                </a>
+              </li>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-  Product
+              <li class="hover:underline">
+                <a href="#" class="flex items-center gap-2">
+                  Connect
+                  <img
+                    src="./images/icon-arrow-light.svg"
+                    alt="arrow"
+                    class="hover:rotate-180 transition ease-out duration-700"
+                  />
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <!-- navigation here -->
 
-  Overview
-  Pricing
-  Marketplace
-  Features
-  Integrations
+        <div class="hidden md:flex">
+          <a href="#">
+            <span class="font-bold hover:underline">Login</span>
+          </a>
+          <a href="#">
+            <span
+              class="ml-4 btn text-primaryCta hover:bg-primaryCtaHoverBg hover:text-white transition ease-out duration-500"
+              >Sign up</span
+            >
+          </a>
+        </div>
+        <img src="./images/icon-hamburger.svg"class="md:hidden" alt="">
+      </header>
+      <div class="flex items-center flex-col md:p-5">
+        <div class="mt-28 text-4xl text-center md:text-6xl font-bold font-heading">
+          <h1>A modern publishing platform</h1>
+        </div>
+        <div class="mt-5 font-light font-heading text-center text-sm md:text-xl">
+          <p>Grow your audience and build your online brand</p>
+        </div>
+        <div class="mt-10 mb-10">
+          <a href="#">
+            <button
+              type="button"
+              class="btn font-body text-primaryCta hover:bg-primaryCtaHoverBg hover:text-white transition ease-out duration-500"
+            >
+              Start for Free
+            </button>
+          </a>
+          <a href="#"
+            ><button
+              type="button"
+              class="text-white-500 border font-body border-white ml-4 font-bold rounded-3xl px-5 py-3 tracking-wider hover:text-primaryCta hover:bg-white transition ease-out duration-500"
+            >
+              Learn More
+            </button></a
+          >
+        </div>
+      </div>
+    </div>
+    <main></main>
 
-  Company
-
-  About
-  Team
-  Blog
-  Careers
-
-  Connect
-
-  Contact
-  Newsletter
-  LinkedIn
-  
-  Login
-  Sign Up
-
-  A modern publishing platform
-  Grow your audience and build your online brand
-
-  Start for Free
-  Learn More
-
-  Designed for the future
-
-  Introducing an extensible editor
-  Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating content. 
-  The editor supports management of multiple blogs and allows easy manipulation of embeds such as images, 
-  videos, and Markdown. Extensibility with plugins and themes provide easy ways to add functionality or 
-  change the looks of a blog.
-
-  Robust content management
-  Flexible content management enables users to easily move through posts. Increase the usability of your blog 
-  by adding customized categories, sections, format, or flow. With this functionality, you’re in full control.
-
-  State of the Art Infrastructure
-  With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity. 
-  This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.
-
-  Free, open, simple
-  Blogr is a free and open source application backed by a large community of helpful developers. It supports 
-  features such as code syntax highlighting, RSS feeds, social media integration, third-party commenting tools, 
-  and works seamlessly with Google Analytics. The architecture is clean and is relatively easy to learn.
-
-  Powerful tooling
-  Batteries included. We built a simple and straightforward CLI tool that makes customization and deployment a breeze, but
-  capable of producing even the most complicated sites.
-
-  Product
-
-  Overview
-  Pricing
-  Marketplace
-  Features
-  Integrations
-
-  Company
-
-  About
-  Team
-  Blog
-  Careers
-
-  Connect
-  
-  Contact
-  Newsletter
-  LinkedIn
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+    <!-- Attribution -->
+    <!-- <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Evans Elabo</a>.
+    </div> -->
+  </body>
 </html>
