@@ -17,6 +17,8 @@ module.exports = {
         backgroundOne: "hsl(353, 100%, 62%)",
         backgroundTwo: "hsl(13, 100%, 72%)",
         bodyCopy: "hsl(207, 13%, 34%)",
+        bgDarkGrayBlue: "hsl(237, 17%, 21%)",
+        bgDesaturatedBlue: "hsl(237,23%,32%)",
       },
     },
   },
