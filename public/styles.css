@@ -619,6 +619,10 @@ video {
   margin-right: -24rem;
 }
 
+.ml-44{
+  margin-left: 11rem;
+}
+
 .flex{
   display: flex;
 }
@@ -1038,6 +1042,14 @@ video {
     margin-right: -24rem;
   }
 
+  .md\:ml-44{
+    margin-left: 11rem;
+  }
+
+  .md\:mt-48{
+    margin-top: 12rem;
+  }
+
   .md\:flex{
     display: flex;
   }
@@ -1076,6 +1088,10 @@ video {
 
   .md\:p-28{
     padding: 7rem;
+  }
+
+  .md\:pl-96{
+    padding-left: 24rem;
   }
 
   .md\:text-left{
