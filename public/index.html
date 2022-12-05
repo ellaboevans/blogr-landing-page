@@ -114,17 +114,19 @@
       </div>
     </div>
     <main>
-      <section class="h-auto p-5 md:p-10">
+      <section class="h-auto p-5 md:p-10 overflow-hidden">
         <div>
           <div class="text-center">
             <h1
-              class="font-bold text-2xl md:text-4xl text-primaryHeadings font-heading mt-20"
+              class="font-bold text-2xl md:text-4xl text-primaryHeadings font-heading mt-20 mb-16"
             >
               Designed for the future
             </h1>
           </div>
-          <div class="md:grid grid-cols-2 items-center justify-center gap-2">
-            <div class="md:flex flex-col order-last md:order-first">
+          <div
+            class="grid grid-cols-1 md:grid md:grid-cols-2 items-center relative justify-center gap-2"
+          >
+            <div class="md:order-first">
               <div class="mb-8">
                 <h1
                   class="font-bold text-primaryHeadings font-heading text-2xl md:text-3xl mb-6 pt-6 text-center md:text-left mx-4"
@@ -141,11 +143,8 @@
                   with plugins and themes provide easy ways to add functionality
                   or change the looks of a blog.
                 </p>
-              </div>
-
-              <div class="">
                 <h1
-                  class="font-bold text-primaryHeadings font-heading text-2xl md:text-3xl mb-6 pt-6 text-center md:text-left mx-4"
+                  class="font-bold text-primaryHeadings font-heading text-2xl md:text-3xl mb-6 pt-10 text-center md:text-left mx-4"
                 >
                   Robust content management
                 </h1>
@@ -159,26 +158,52 @@
                 </p>
               </div>
             </div>
-            <div class="mt-4 md:ml-10 order-first md:order-last">
+            <div
+              class="flex flex-cols mt-4 md:right-0 md:-mr-96 md:absolute order-first"
+            >
               <img
                 src="./images/illustration-editor-desktop.svg"
                 alt=""
-                class="object-cover"
+                class="object-cover order-1 md:w-9/12 md:h-9/12"
               />
             </div>
           </div>
         </div>
       </section>
+      <section
+        class="h-auto p-5 md:p-28 mt-48 bg-bgDesaturatedBlue bg-opacity-95 w-full rounded-bl-hero rounded-tr-hero relative bg-local bg-no-repeat bg-left-bottom bg-auto"
+        style="background-image: url(./images/bg-pattern-circles.svg)"
+      >
+        <div class=" ">
+          <div class="flex flex-cols items-center justify-start gap-4">
+            <div class="ml-4 absolute left-0">
+              <img src="./images/illustration-phones.svg" alt="" />
+            </div>
+            <div class="ml-96 pl-48">
+              <h1
+                class="font-bold text-white font-heading text-2xl md:text-4xl mb-6 pt-6 text-center md:text-left"
+              >
+                State of the Art Infrastructure
+              </h1>
+              <p class="font-light text-gray-300 text-center md:text-left">
+                With reliability and speed in mind, worldwide data centers
+                provide the backbone for ultra-fast connectivity. This ensures
+                your site will load instantly, no matter where your readers are,
+                keeping your site competitive.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
       <!-- Attribution -->
-    <div class="attribution text-center my-8 text-primaryHeadings">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by <a href="#">Evans Elabo</a>.
-    </div>
+      <div class="attribution text-center my-8 text-primaryHeadings p-4">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Evans Elabo</a>.
+      </div>
     </main>
 
-    
     <script src="index.js"></script>
   </body>
 </html>
