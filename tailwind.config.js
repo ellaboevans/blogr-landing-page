@@ -19,6 +19,7 @@ module.exports = {
         bodyCopy: "hsl(207, 13%, 34%)",
         bgDarkGrayBlue: "hsl(237, 17%, 21%)",
         bgDesaturatedBlue: "hsl(237,23%,32%)",
+        footerBackground: "hsl(240, 10%, 16%)",
       },
       width: {
         vw: "54vw",
