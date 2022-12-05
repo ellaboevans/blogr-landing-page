@@ -19,10 +19,14 @@
     >
       <header class="flex justify-between items-center p-4">
         <!-- logo here -->
-        <div class="flex items-center gap-20">
-          <img src="../images/logo.svg" alt="logo" class="w-20"/>
-          <nav class="hidden md:flex">
-            <ul class="flex gap-8 font-bold font-body">
+        <div class="flex items-center relative gap-20">
+          <img
+            src="../images/logo.svg"
+            alt="logo"
+            class="w-20 cursor-pointer"
+          />
+          <nav class="hidden md:flex" id="menu">
+            <ul class="md:flex justify-center gap-8 font-bold font-body">
               <li class="hover:underline">
                 <a href="#" class="flex items-center gap-2">
                   Overview
@@ -71,20 +75,29 @@
             >
           </a>
         </div>
-        <img src="./images/icon-hamburger.svg"class="md:hidden" alt="">
+        <img
+          src="./images/icon-hamburger.svg"
+          class="md:hidden cursor-pointer"
+          alt="icon-hamburger"
+          id="burger"
+        />
       </header>
       <div class="flex items-center flex-col md:p-5">
-        <div class="mt-28 text-4xl text-center md:text-6xl font-bold font-heading">
+        <div
+          class="mt-28 text-4xl text-center md:text-6xl font-bold font-heading"
+        >
           <h1>A modern publishing platform</h1>
         </div>
-        <div class="mt-5 font-light font-heading text-center text-sm md:text-xl">
+        <div
+          class="mt-5 font-light font-heading text-center text-sm md:text-xl"
+        >
           <p>Grow your audience and build your online brand</p>
         </div>
         <div class="mt-10 mb-10">
           <a href="#">
             <button
               type="button"
-              class="btn font-body text-primaryCta hover:bg-primaryCtaHoverBg hover:text-white transition ease-out duration-500"
+              class="btn font-body text-primaryCta hover:bg-primaryCtaHoverBg hover:scale-110 hover:text-white transition ease-out duration-500"
             >
               Start for Free
             </button>
@@ -92,7 +105,7 @@
           <a href="#"
             ><button
               type="button"
-              class="text-white-500 border font-body border-white ml-4 font-bold rounded-3xl px-5 py-3 tracking-wider hover:text-primaryCta hover:bg-white transition ease-out duration-500"
+              class="text-white-500 border font-body border-white ml-4 font-bold rounded-3xl px-5 py-3 tracking-wider hover:scale-110 hover:text-primaryCta hover:bg-white transition ease-out duration-500"
             >
               Learn More
             </button></a
@@ -109,5 +122,6 @@
         >Frontend Mentor</a
       >. Coded by <a href="#">Evans Elabo</a>.
     </div> -->
+    <script src="index.js"></script>
   </body>
 </html>
