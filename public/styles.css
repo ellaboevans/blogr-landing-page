@@ -539,6 +539,26 @@ video {
   margin-bottom: 2rem;
 }
 
+.mx-auto{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mx-20{
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+
+.my-20{
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.my-16{
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
 .ml-4{
   margin-left: 1rem;
 }
@@ -599,6 +619,18 @@ video {
   margin-left: -16rem;
 }
 
+.ml-2{
+  margin-left: 0.5rem;
+}
+
+.ml-20{
+  margin-left: 5rem;
+}
+
+.mt-8{
+  margin-top: 2rem;
+}
+
 .flex{
   display: flex;
 }
@@ -615,6 +647,10 @@ video {
   height: auto;
 }
 
+.h-9{
+  height: 2.25rem;
+}
+
 .w-20{
   width: 5rem;
 }
@@ -625,6 +661,22 @@ video {
 
 .w-vw{
   width: 54vw;
+}
+
+.w-9\/12{
+  width: 75%;
+}
+
+.w-2\/4{
+  width: 50%;
+}
+
+.w-4\/12{
+  width: 33.333333%;
+}
+
+.w-5\/6{
+  width: 83.333333%;
 }
 
 .max-w-none{
@@ -641,6 +693,14 @@ video {
 
 .grid-cols-2{
   grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.grid-rows-2{
+  grid-template-rows: repeat(2, minmax(0, 1fr));
+}
+
+.flex-row{
+  flex-direction: row;
 }
 
 .flex-col{
@@ -736,6 +796,11 @@ video {
 
 .bg-no-repeat{
   background-repeat: no-repeat;
+}
+
+.object-contain{
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 .object-cover{
@@ -912,6 +977,13 @@ video {
   text-decoration-line: underline;
 }
 
+@media (min-width: 640px){
+  .sm\:object-contain{
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+}
+
 @media (min-width: 768px){
   .md\:absolute{
     position: absolute;
@@ -932,6 +1004,11 @@ video {
   .md\:mx-0{
     margin-left: 0px;
     margin-right: 0px;
+  }
+
+  .md\:my-0{
+    margin-top: 0px;
+    margin-bottom: 0px;
   }
 
   .md\:mb-0{
@@ -962,6 +1039,18 @@ video {
     margin-bottom: 12rem;
   }
 
+  .md\:-ml-60{
+    margin-left: -15rem;
+  }
+
+  .md\:ml-0{
+    margin-left: 0px;
+  }
+
+  .md\:-ml-96{
+    margin-left: -24rem;
+  }
+
   .md\:flex{
     display: flex;
   }
@@ -982,6 +1071,14 @@ video {
     width: 75%;
   }
 
+  .md\:w-vw{
+    width: 54vw;
+  }
+
+  .md\:max-w-none{
+    max-width: none;
+  }
+
   .md\:grid-cols-2{
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -1000,6 +1097,14 @@ video {
 
   .md\:pl-96{
     padding-left: 24rem;
+  }
+
+  .md\:pr-16{
+    padding-right: 4rem;
+  }
+
+  .md\:pl-0{
+    padding-left: 0px;
   }
 
   .md\:text-left{
