@@ -20,6 +20,9 @@ module.exports = {
         bgDarkGrayBlue: "hsl(237, 17%, 21%)",
         bgDesaturatedBlue: "hsl(237,23%,32%)",
       },
+      width: {
+        vw: "54vw",
+      },
     },
   },
   plugins: [],
