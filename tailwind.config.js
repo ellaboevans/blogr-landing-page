@@ -16,6 +16,7 @@ module.exports = {
         primaryHeadings: "hsl(208, 49%, 24%)",
         backgroundOne: "hsl(353, 100%, 62%)",
         backgroundTwo: "hsl(13, 100%, 72%)",
+        bodyCopy: "hsl(207, 13%, 34%)",
       },
     },
   },
