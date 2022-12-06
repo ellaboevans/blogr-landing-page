@@ -34,41 +34,120 @@
 
           <!-- navigation start -->
 
-          <nav class="hidden md:flex" id="menu">
-            <ul class="md:flex justify-center gap-8 font-bold font-body">
-              <li class="hover:underline">
-                <a href="#" class="flex items-center gap-2">
-                  Overview
-                  <img
-                    src="./images/icon-arrow-light.svg"
-                    alt="arrow"
-                    class="hover:rotate-180 transition ease-out duration-700"
-                  />
-                </a>
-              </li>
+          <!-- Product NavigationLinks  -->
+          <nav class="hidden md:flex gap-8" id="menu">
+            <div class="float-left overflow-hidden hover:block" id="dropdown">
+              <button class="font-bold font-body" id="dropbtn">
+                Product
+                <img
+                  src="./images/icon-arrow-light.svg"
+                  alt=""
+                  class="inline"
+                />
+              </button>
+              <div
+                class="bg-white hidden flex flex-col gap-0 w-40 rounded-2xl z-10 shadow-2xl mt-4 absolute"
+                id="dropdown-content"
+              >
+                <a
+                  href="#"
+                  class="text-center py-1 mt-4 text-gray-800 hover:font-bold font-body"
+                  >Overview</a
+                >
+                <a
+                  href="#"
+                  class="text-center py-1 text-gray-800 hover:font-bold font-body"
+                  >Pricing</a
+                >
+                <a
+                  href="#"
+                  class="text-center py-1 text-gray-800 hover:font-bold font-body"
+                  >Marketplace</a
+                >
+                <a
+                  href="#"
+                  class="text-center py-1 text-gray-800 hover:font-bold font-body"
+                  >Features</a
+                >
+                <a
+                  href="#"
+                  class="text-center py-1 mb-4 text-gray-800 hover:font-bold font-body"
+                  >Integrations</a
+                >
+              </div>
+            </div>
+            <!-- Product Navigation Links End -->
 
-              <li class="hover:underline">
-                <a href="#" class="flex items-center gap-2">
-                  Company
-                  <img
-                    src="./images/icon-arrow-light.svg"
-                    alt="arrow"
-                    class="hover:rotate-180 transition ease-out duration-700"
-                  />
-                </a>
-              </li>
+            <!-- Company Navigation Links -->
+            <div class="float-left overflow-hidden hover:block" id="dropdown">
+              <button class="font-bold font-body" id="dropbtn-2">
+                Company
+                <img
+                  src="./images/icon-arrow-light.svg"
+                  alt=""
+                  class="inline"
+                />
+              </button>
+              <div
+                class="bg-white hidden flex flex-col gap-0 w-40 rounded-2xl z-10 shadow-2xl mt-4 absolute"
+                id="dropdown-content-2"
+              >
+                <a
+                  href="#"
+                  class="text-center py-1 mt-4 text-gray-800 hover:font-bold font-body"
+                  >About</a
+                >
+                <a
+                  href="#"
+                  class="text-center py-1 text-gray-800 hover:font-bold font-body"
+                  >Team</a
+                >
+                <a
+                  href="#"
+                  class="text-center py-1 text-gray-800 hover:font-bold font-body"
+                  >Blog</a
+                >
+                <a
+                  href="#"
+                  class="text-center py-1 mb-4 text-gray-800 hover:font-bold font-body"
+                  >Careers</a
+                >
+              </div>
+            </div>
+            <!-- Compnay navigation Links End -->
 
-              <li class="hover:underline">
-                <a href="#" class="flex items-center gap-2">
-                  Connect
-                  <img
-                    src="./images/icon-arrow-light.svg"
-                    alt="arrow"
-                    class="hover:rotate-180 transition ease-out duration-700"
-                  />
-                </a>
-              </li>
-            </ul>
+            <!-- Connect Navigation Links -->
+            <div class="float-left overflow-hidden hover:block" id="dropdown">
+              <button class="font-bold font-body" id="dropbtn-3">
+                Connect
+                <img
+                  src="./images/icon-arrow-light.svg"
+                  alt=""
+                  class="inline"
+                />
+              </button>
+              <div
+                class="bg-white hidden flex flex-col gap-0 w-40 rounded-2xl z-10 shadow-2xl mt-4 absolute"
+                id="dropdown-content-3"
+              >
+                <a
+                  href="#"
+                  class="text-center py-1 mt-4 text-gray-800 hover:font-bold font-body"
+                  >Contact</a
+                >
+                <a
+                  href="#"
+                  class="text-center py-1 text-gray-800 hover:font-bold font-body"
+                  >Newsletter</a
+                >
+                <a
+                  href="#"
+                  class="text-center py-1 mb-4 text-gray-800 hover:font-bold font-body"
+                  >LinkedIn</a
+                >
+              </div>
+            </div>
+            <!-- Connect NavigationLInks End -->
           </nav>
         </div>
         <!-- navigation end here -->
@@ -396,9 +475,7 @@
           class="text-center text-gray-100 font-light text-xs mt-4"
           id="copyright"
         >
-          <p>
-            ©<span id="copyrightDate">2021</span> CodeConcept, Inc.
-          </p>
+          <p>©<span id="copyrightDate">2021</span> CodeConcept, Inc.</p>
         </div>
         <!-- footer flex container end -->
       </footer>
