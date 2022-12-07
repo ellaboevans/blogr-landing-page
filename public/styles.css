@@ -942,6 +942,10 @@ video {
   border-radius: 1.5rem;
 }
 
+.rounded-xl{
+  border-radius: 0.75rem;
+}
+
 .rounded-bl-hero{
   border-bottom-left-radius: 6rem;
 }
