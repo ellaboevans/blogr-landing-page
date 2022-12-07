@@ -754,6 +754,10 @@ video {
   margin-top: 6rem;
 }
 
+.mt-2{
+  margin-top: 0.5rem;
+}
+
 .block{
   display: block;
 }
@@ -824,6 +828,10 @@ video {
 
 .w-44{
   width: 11rem;
+}
+
+.w-9\/12{
+  width: 75%;
 }
 
 .cursor-pointer{
