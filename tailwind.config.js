@@ -25,6 +25,13 @@ module.exports = {
         vw: "54vw",
       },
     },
+    variants: {
+      extend: {
+        display: ["group-focus"],
+        opacity: ["group-focus"],
+        inset: ["group-focus"],
+      },
+    },
   },
   plugins: [],
 };

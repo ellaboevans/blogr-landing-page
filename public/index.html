@@ -80,7 +80,10 @@
 
             <!-- Company Navigation Links -->
             <div class="float-left overflow-hidden hover:block" id="dropdown">
-              <button class="font-bold font-body hover:underline" id="dropbtn-2">
+              <button
+                class="font-bold font-body hover:underline"
+                id="dropbtn-2"
+              >
                 Company
                 <img
                   src="./images/icon-arrow-light.svg"
@@ -114,11 +117,14 @@
                 >
               </div>
             </div>
-            <!-- Compnay navigation Links End -->
+            <!-- Company navigation Links End -->
 
             <!-- Connect Navigation Links -->
             <div class="float-left overflow-hidden hover:block" id="dropdown">
-              <button class="font-bold font-body hover:underline" id="dropbtn-3">
+              <button
+                class="font-bold font-body hover:underline"
+                id="dropbtn-3"
+              >
                 Connect
                 <img
                   src="./images/icon-arrow-light.svg"
@@ -165,12 +171,156 @@
             >
           </a>
         </div>
-        <img
+        <!-- Mobile Menu Display -->
+
+        <!-- Hamburger -->
+        <button
+          class="block md:hidden py-3 px-4 mx-2 rounded focus:outline-none group"
+        >
+          <div class="w-7 h-1 bg-white mb-1"></div>
+          <div class="w-7 h-1 bg-white mb-1"></div>
+          <div class="w-7 h-1 bg-white"></div>
+          <div
+            class="absolute top-0 -right-full h-screen w-8/12 bg-white border opacity-0 group-focus:right-0 group-focus:opacity-100 trasition-all duration-300 drop-shadow-2xl"
+          >
+            <!-- Menu Items -->
+            <div
+              class="flex flex-col items-center w-full text-base cursor-pointer pt-10 text-gray-600 font-normal font-body"
+              id="dropdown-mobile"
+            >
+              <!-- Menu Links -->
+              <li
+                class="hover:bg-gray-100 py-4 px-6 w-full list-none"
+                id="dropbtn-mobile"
+              >
+                <span class=""
+                  >Product
+                  <img
+                    src="./images/icon-arrow-dark.svg"
+                    alt="arrow"
+                    class="inline hover:rotate-180 transition ease-out duration-600"
+                  />
+                </span>
+              </li>
+              <!-- Dropdown mobile content -->
+              <div
+                class="bg-gray-300 hidden flex flex-col gap-0 w-60 rounded-2xl z-10 shadow mt-16 absolute"
+                id="dropdown-content-mobile"
+              >
+                <a
+                  href="#"
+                  class="text-center py-1 mt-4 text-gray-400 hover:font-semibold font-body"
+                  >Overview</a
+                >
+                <a
+                  href="#"
+                  class="text-center py-1 mt-4 text-gray-400 hover:font-semibold font-body"
+                  >Pricing</a
+                >
+                <a
+                  href="#"
+                  class="text-center py-1 mt-4 text-gray-400 hover:font-semibold font-body"
+                  >Marketplace</a
+                >
+                <a
+                  href="#"
+                  class="text-center py-1 mt-4 text-gray-400 hover:font-semibold font-body"
+                  >Features</a
+                >
+                <a
+                  href="#"
+                  class="text-center py-1 mt-4 text-gray-400 hover:font-semibold font-body"
+                  >Integrations</a
+                >
+              </div>
+              <!-- Dropdown content mobile end -->
+              <li
+                class="hover:bg-gray-100 py-4 px-6 w-full list-none"
+                id="dropbtn-mobile-2"
+              >
+                <span class=""
+                  >Company
+                  <img
+                    src="./images/icon-arrow-dark.svg"
+                    alt="arrow"
+                    class="inline hover:rotate-180 transition ease-out duration-600"
+                  />
+                </span>
+              </li>
+              <!-- Dropdown mobile content -->
+              <div
+                class="bg-gray-300 hidden flex flex-col gap-0 w-60 rounded-2xl z-10 shadow mt-16 absolute"
+                id="dropdown-content-mobile-2"
+              >
+                <a
+                  href="#"
+                  class="text-center py-1 mt-4 text-gray-400 hover:font-semibold font-body"
+                  >About</a
+                >
+                <a
+                  href="#"
+                  class="text-center py-1 mt-4 text-gray-400 hover:font-semibold font-body"
+                  >Team</a
+                >
+                <a
+                  href="#"
+                  class="text-center py-1 mt-4 text-gray-400 hover:font-semibold font-body"
+                  >Blog</a
+                >
+                <a
+                  href="#"
+                  class="text-center py-1 mt-4 text-gray-400 hover:font-semibold font-body"
+                  >Careers</a
+                >
+              </div>
+              <!-- Dropdown content mobile end -->
+
+              <li
+                class="hover:bg-gray-100 py-4 px-6 w-full list-none"
+                id="dropbtn-mobile-3"
+              >
+                <span class=""
+                  >Connect
+                  <img
+                    src="./images/icon-arrow-dark.svg"
+                    alt="arrow"
+                    class="inline hover:rotate-180 transition ease-out duration-600"
+                  />
+                </span>
+              </li>
+              <!-- Dropdown mobile content -->
+              <div
+                class="bg-gray-300 hidden flex flex-col gap-0 w-60 rounded-2xl z-10 shadow mt-16 absolute"
+                id="dropdown-content-mobile-3"
+              >
+                <a
+                  href="#"
+                  class="text-center py-1 mt-4 text-gray-400 hover:font-semibold font-body"
+                  >Contact</a
+                >
+                <a
+                  href="#"
+                  class="text-center py-1 mt-4 text-gray-400 hover:font-semibold font-body"
+                  >Newsletter</a
+                >
+                <a
+                  href="#"
+                  class="text-center py-1 mt-4 text-gray-400 hover:font-semibold font-body"
+                  >LinkedIn</a
+                >
+              </div>
+              <!-- Dropdown content mobile end -->
+            </div>
+            <!-- Menu links end -->
+          </div>
+        </button>
+
+        <!-- <img
           src="./images/icon-hamburger.svg"
           class="md:hidden cursor-pointer"
           alt="icon-hamburger"
           id="burger"
-        />
+        /> -->
         <!-- navigation button end -->
       </header>
       <!-- Header End -->

@@ -1,11 +1,11 @@
 // Menu Display
 
-const menu = document.querySelector("#menu");
-const burger = document.querySelector("#burger");
+// const menu = document.querySelector("#menu");
+// const burger = document.querySelector("#burger");
 
-burger.addEventListener("click", () => {
-  menu.classList.toggle("hidden");
-});
+// burger.addEventListener("click", () => {
+//   menu.classList.toggle("hidden");
+// });
 
 // Copyright Auto Update
 
@@ -58,4 +58,45 @@ dropBtn3.addEventListener("mouseover", function () {
 
 dropBtn3.addEventListener("click", function () {
   dropdownContent3.classList.add("hidden");
+});
+
+// MobileMenu
+
+const dropBtnMobile = document.querySelector("#dropbtn-mobile");
+const dropdownContentMobile = document.querySelector(
+  "#dropdown-content-mobile"
+);
+
+dropBtnMobile.addEventListener("click", () => {
+  if (dropdownContentMobile.classList.contains("hidden")) {
+    return dropdownContentMobile.classList.remove("hidden");
+  } else {
+    return dropdownContentMobile.classList.add("hidden");
+  }
+});
+
+const dropBtnMobile2 = document.querySelector("#dropbtn-mobile-2");
+const dropdownContentMobile2 = document.querySelector(
+  "#dropdown-content-mobile-2"
+);
+
+dropBtnMobile.addEventListener("click", () => {
+  if (dropdownContentMobile2.classList.contains("hidden")) {
+    return dropdownContentMobile2.classList.remove("hidden");
+  } else {
+    return dropdownContentMobile2.classList.add("hidden");
+  }
+});
+
+const dropBtnMobile3 = document.querySelector("#dropbtn-mobile-3");
+const dropdownContentMobile3 = document.querySelector(
+  "#dropdown-content-mobile-3"
+);
+
+dropBtnMobile3.addEventListener("click", () => {
+  if (dropdownContentMobile3.classList.contains("hidden")) {
+    return dropdownContentMobile3.classList.remove("hidden");
+  } else {
+    return dropdownContentMobile3.classList.add("hidden");
+  }
 });
