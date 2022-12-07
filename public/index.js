@@ -80,7 +80,7 @@ const dropdownContentMobile2 = document.querySelector(
   "#dropdown-content-mobile-2"
 );
 
-dropBtnMobile.addEventListener("click", () => {
+dropBtnMobile2.addEventListener("click", () => {
   if (dropdownContentMobile2.classList.contains("hidden")) {
     return dropdownContentMobile2.classList.remove("hidden");
   } else {
