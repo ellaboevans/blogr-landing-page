@@ -62,8 +62,8 @@ I will continue to build more complex project to enhance my tech stack.
 ### Useful resources
 
 - [W3schools](https://www.w3schools.com) - This website helped me understand the basic use of dropdown component.
-- [MDN](https://dev.to) - Used to revise some event.
-- [Tailwindcss](https://tailwindcss.com/docs/) - Used to follow up with my development. 
+- [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript) - Used to revise some event.
+- [Tailwindcss Docs](https://tailwindcss.com/docs/) - Used to follow up with my development. 
 
 
 
